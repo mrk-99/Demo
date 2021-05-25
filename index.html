@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Demo</title>
+  <link rel="icon" type="image/png" href="./images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Search -->
+  <div class="search-show">
+    <div class="search-show-input">
+      <div class="wrap-input2" data-validate="Name is required">
+        <input class="input2" type="text" name="search">
+        <span class="focus-input2" data-placeholder="Search..."></span>
+        <button class="btn-input2"><img src="./images/search-btn.png" /></button>
+      </div>
+    </div>
+    <img class="brand-logo" src="./images/logo.png" alt="button end search">
+    <img class="search-end-btn" src="./images/search-end-btn.png" alt="button end search">
+  </div>
+  <!-- Header -->
+  <header id="header">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav-bar"
+          aria-controls="my-nav-bar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="my-nav-bar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown wrapper-dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Home<i class="fas fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Homepage Main</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-item" href="#">Homepage Finance<i class="fas fa-angle-right"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Classic</a></li>
+                    <li><a class="dropdown-item" href="#">BG Image</a></li>
+                    <li><a class="dropdown-item" href="#">Slider Revolution</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Homepage App</a></li>
+                <li><a class="dropdown-item" href="#">Homepage Startup</a></li>
+                <li><a class="dropdown-item" href="#">Homepage Business</a></li>
+                <li><a class="dropdown-item" href="#">Homepage SaaS</a></li>
+                <li><a class="dropdown-item" href="#">Homepage Portfolio</a></li>
+                <li><a class="dropdown-item" href="#">Homepage Consulting</a></li>
+                <li><a class="dropdown-item" href="#">Homepage corporate</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Picing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item cart">
+              <a class="nav-link" href="#">
+                <img src="./images/cart-button.png" />
+              </a>
+            </li>
+            <li class="nav-item search">
+              <a class="nav-link" href="#">
+                <img src="./images/search-btn.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Get Started -->
+        <button class="btn btn-success get-started" type="button">Get Started</button>
+      </div>
+    </nav>
+    <!-- content h1 -->
+    <div class="content">
+      <div class="container">
+        <h1><span>We define consulting</span> as,</br>
+          in essence, helping</h1>
+        <P>We count ourselves extraordinarily fortunate to work with major organisations,</br>
+          helping them solve their most critical challenges.</P>
+        <div class="row justify-content-md-center">
+          <div class="learn-more">
+            <button type="button" class="btn btn-light">Learn More</button>
+          </div>
+          <div class="play">
+            <button type="button" class="btn btn-circle btn-light btn-lg"><i class="fa fa-play"></i></button>
+            <div class="watch-video">Watch Video</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Wave animation -->
+    <section>
+      <div class="wave"></div>
+    </section>
+  </header>
+  <!-- Main -->
+  <main id="main">
+    <!-- Tab -->
+    <div class="tab">
+      <div class="container">
+        <div class="tab-title">
+          <p>We’re committed to leaving organisations and their<br />people in a truly better place</p>
+        </div>
+        <div class="tab-content row">
+          <div class="tab-left col">
+            <div class="left-1 tab-left-hover">
+              <p class="left-title">What we do</p>
+              <p class="left-content">We are in the business of helping</p>
+            </div>
+            <div class="left-2 tab-left-hover">
+              <p class="left-title">How we do</p>
+              <p class="left-content">Creating sustainable change and transformation</p>
+            </div>
+            <div class="left-3 tab-left-hover">
+              <p class="left-title">Who we are</p>
+              <p class="left-content">Better equipped for creating a better future</p>
+            </div>
+          </div>
+          <div class="tab-right col">
+            <a class="tab-img-1"><img src="./images/shape1.png" alt=""></a>
+            <a class="tab-img-2"><img src="./images/shape2.png" alt=""></a>
+            <a class="tab-img-3"><img src="./images/bg_tab.jpg" alt=""></a>
+            <a class="tab-img-4"><img src="./images/bg_tab2.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="services">
+      <div class="container">
+        <div class="services-title row">
+          <div class="services-title-content col">
+            <p>Born in NYC and active all over the world</p>
+            <h1>We draw upon the expertise of the<br /> best management thinkers</h1>
+          </div>
+          <div class="services-title-link col">
+            <a href="#">View All Services</br><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="services-part row">
+          <div class="services-part-13 col services-part-hover">
+            <p class="services-part-icon"><i class="fas fa-chart-pie"></i></p>
+            <p class="services-part-title">Capital</p>
+            <p class="services-part-content">We help organisations become fit for humans and fit for the future</p>
+            <p class="services-learn-more">Learn More</br><i class="fas fa-arrow-right"></i></p>
+          </div>
+          <div class="services-part-24 col services-part-hover">
+            <p class="services-part-icon"><i class="far fa-comment"></i></p>
+            <p class="services-part-title">Consulting</p>
+            <p class="services-part-content">We help organisations become fit for humans and fit for the future</p>
+            <p class="services-learn-more">Learn More</br><i class="fas fa-arrow-right"></i></p>
+          </div>
+          <div class="services-part-13 col services-part-hover">
+            <p class="services-part-icon"><i class="fas fa-chart-bar"></i></p>
+            <p class="services-part-title">Analytics</p>
+            <p class="services-part-content">We help organisations become fit for humans and fit for the future</p>
+            <p class="services-learn-more">Learn More</br><i class="fas fa-arrow-right"></i></p>
+          </div>
+          <div class="services-part-24 col services-part-hover">
+            <p class="services-part-icon"><i class="fas fa-chart-line"></i></p>
+            <p class="services-part-title">Payroll</p>
+            <p class="services-part-content">We help organisations become fit for humans and fit for the future</p>
+            <p class="services-learn-more">Learn More</br><i class="fas fa-arrow-right"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CTA -->
+    <div class="cta">
+      <div class="cta-title">
+        <h1>To turn plans and ambitions into reality</h1>
+        <p>To move forward, improve and create impact.</p>
+        <button class="cta-buttun btn btn-success" type="button">Get Started</button>
+      </div>
+    </div>
+    <!-- About -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-left col">
+            <a class="about-img-1"><img src="./images/shape1.png" alt=""></a>
+            <a class="about-img-2"><img src="./images/shape2.png" alt=""></a>
+            <a class="about-img-3"><img src="./images/bg_about.jpg" alt=""></a>
+          </div>
+          <div class="about-right col">
+            <div class="about-title">
+              <p>Our communities of professional</p>
+              <h1>Strategy is all about choices</h1>
+            </div>
+            <div class="about-content">
+              <p>To build an evolutionary advantage we need to ask ourselves: how can we develop the capability of great
+                choice making across the organisation? In an ever-evolving world, it is critical to capitalise
+                on opportunities for transformational growth.</p>
+            </div>
+            <button class="about-button btn btn-primary" type="button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Item -->
+    <div class="item">
+      <div class="container">
+        <div class="row">
+          <div class="item-left col">
+            <div class="item-title">
+              <h1>Using experience to develop leadership</h1>
+            </div>
+            <div class="item-part row">
+              <div class="item-icon col-2">
+                <i class="fa fa-cat"></i>
+                <!-- <img src="./images/item-icon-1.png" alt="Strategy"> -->
+              </div>
+              <div class="item-content col-4">
+                <h1>Strategy</h1>
+                <p>We're a consulting group that empowers businesses</p>
+              </div>
+              <div class="item-icon col-2">
+                <i class="fa fa-cat"></i>
+                <!-- <img src="./images/item-icon-2.png" alt="Operations"> -->
+              </div>
+              <div class="item-content col-4">
+                <h1>Operations</h1>
+                <p>We're a consulting group that empowers businesses</p>
+              </div>
+            </div>
+            <div class="item-part row">
+              <div class="item-icon col-2">
+                <i class="fa fa-briefcase"></i>
+                <!-- <img src="./images/item-icon-3.png" alt="Leadership"> -->
+              </div>
+              <div class="item-content col-4">
+                <h1>Leadership</h1>
+                <p>We're a consulting group that empowers businesses</p>
+              </div>
+              <div class="item-icon col-2">
+                <i class="fa fa-cog"></i>
+                <!-- <img src="./images/item-icon-4.png" alt="Efficiency"> -->
+              </div>
+              <div class="item-content col-4">
+                <h1>Efficiency</h1>
+                <p>We're a consulting group that empowers businesses</p>
+              </div>
+            </div>
+          </div>
+          <div class="item-right col"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact-bg row">
+          <div class="contact-form-hide col"></div>
+          <div class="contact-form col">
+            <p class="contact-form-title">
+              We'd love to hear from you
+            </p>
+            <p class="contact-form-content">
+              Do you want to start your own business today? Send<br />us a message and we'll reply as soon as possible
+            </p>
+            <div class="input-content">
+              <div class="wrap-input2" data-validate="Name is required">
+                <input class="input2" type="text" name="name">
+                <span class="focus-input2" data-placeholder="Your Name"></span>
+              </div>
+              <div class="wrap-input2" data-validate="Valid email is required: ex@abc.xyz">
+                <input class="input2" type="text" name="email">
+                <span class="focus-input2" data-placeholder="Your Email"></span>
+              </div>
+              <div class="wrap-input2" data-validate="Message is required">
+                <textarea class="input2" name="message"></textarea>
+                <span class="focus-input2" data-placeholder="Comment"></span>
+              </div>
+            </div>
+            <div class="contact-form-btn">
+              <button class="contact2-form-btn btn btn-success" type="button">Get a Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Partner Logo -->
+    <div class="partner">
+      <div class="container">
+        <div class="partner-title">
+          <p>Trusted by thousands of diverse companies</p>
+        </div>
+        <div class="owl-carousel">
+          <div class="single-logo"><img src="./images/partner_logo_1.png"></div>
+          <div class="single-logo"><img src="./images/partner_logo_2.png"></div>
+          <div class="single-logo"><img src="./images/partner_logo_3.png"></div>
+          <div class="single-logo"><img src="./images/partner_logo_4.png"></div>
+          <div class="single-logo"><img src="./images/partner_logo_3.png"></div>
+          <div class="single-logo"><img src="./images/partner_logo_4.png"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="newsletter">
+      <div class="newsletter-title">
+        <h1>Subscribe to our newsletter</h1>
+        <p>Get monthly money tips and stay on top of your finance.</p>
+      </div>
+      <form class="form-inline">
+        <input type="text" class="form-control" id="email2" placeholder="Enter your email" name="email" required>
+        <button type="submit" class="btn btn-success">Subscribe</button>
+      </form>
+      <p class="newsletter-last">By subscribing to our newsletter you agree to receive email from us</p>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <!-- Link -->
+      <div class="link row">
+        <div class="col">
+          <h1>Unicorp</h1>
+          <p>112 W 34th St, New York.</p>
+          <p>(+1) 212-946-2707</p>
+          <p>info@unicorp.com</p>
+          <p>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+          </p>
+        </div>
+        <div class="col-2">
+          <h1>Useful Links</h1>
+          <p>Services</p>
+          <p>About</p>
+          <p>Careers</p>
+          <p>Blog</p>
+        </div>
+        <div class="col-2">
+          <h1>Products</h1>
+          <p>Apps</p>
+          <p>Integrations</p>
+          <p>Pricing</p>
+          <P>Request a Demo</P>
+        </div>
+        <div class="col-2">
+          <h1>Resources</h1>
+          <p>Knowledge Base</p>
+          <p>Help Desk</p>
+          <p>Become a Partner</p>
+          <p>Uptime</p>
+        </div>
+        <div class="col">
+          <h1>Newsletter</h1>
+          <p>Get everything you need to succeed!</p>
+          <form class="form-inline">
+            <input type="text" class="form-control" id="email3" placeholder="Enter your email" name="email" required>
+            <button type="submit" class="btn btn-success">
+              <i class="far fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <hr />
+      <!-- Copyright -->
+      <div class="copyright row">
+        <div class="copyright-content col">
+          <p>©2020 UniCorp by Viworx-Co. All Rights Reserved.</p>
+        </div>
+        <div class="copyright-menu col">
+          <p>Term of Use</p>
+          <p>Privacy</p>
+          <p>Sitemap</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script> // Xử lý menu dropdown x2 thả xuống
+    $('.dropdown-menu > .dropdown > a');
+    $('.dropdown-menu a').on('click', function (e) {
+      if (!$(this).next().hasClass('show')) {
+        $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+      }
+      var $subMenu = $(this).next(".dropdown-menu");
+      $subMenu.toggleClass('show');
+      $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+        $('.dropdown-menu > .dropdown .show').removeClass("show");
+      });
+      return false;
+    });
+  </script>
+  <script> //Search show
+    $('.search').on('click', function () {
+      $('.search-show').css('z-index', 99).css({ opacity: "1" });
+      $('body').addClass('stop-scrolling');
+      $('body').on('touchmove', function(e){e.preventDefault()});
+    });
+    $('.search-end-btn').on('click', function () {
+      $('.search-show').css({ opacity: '0' });
+      setTimeout(function () {
+        $('.search-show').css('z-index', -999);
+        $('body').removeClass('stop-scrolling');
+        $('body').off('touchmove');
+      }, 500);
+    });
+  </script>
+  <script> // Edit Partner Logo use Owl Carousel
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        300: {
+          items: 2
+        },
+        500: {
+          items: 3
+        },
+        600: {
+          items: 3
+        },
+        800: {
+          items: 4
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
